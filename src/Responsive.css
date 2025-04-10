@@ -1,0 +1,7 @@
+/* Responive.css helps with the mobile view of the graph and map placement */
+
+@media (max-width: 768px) {
+  .graph-mobile-spacing {
+    margin-bottom: 10rem; /* mb-8 */
+  }
+}
