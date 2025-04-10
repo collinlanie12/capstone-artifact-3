@@ -40,7 +40,6 @@ This project was originally built using Python and the Dash framework. The enhan
 
 - Rebuilt Python-based dashboard into a full-stack MERN application
 - Implemented filtering by animal type and rescue category using buttons
-- Added pagination to view more data from database
 - The pie chart now shows breed distribution based on current data being shown in the data table.
 - Integrated React Leaflet map with live location markers
 - Refactored code using reusable services and secure practices
