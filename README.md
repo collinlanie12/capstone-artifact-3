@@ -13,6 +13,11 @@ This dashboard allows users to:
 
 This project was originally built using Python and the Dash framework. The enhanced version rebuilds the functionality using the MERN stack (MongoDB, Express.js, React.js, Node.js) and modern frontend practices.
 
+## Dataset
+
+The sample animal data used in this dashboard is located in `data/aac_shelter_outcomes.csv/` .
+This file can be imported into MongoDB for local testing.
+
 ## Technologies used
 
 ### Frontend
