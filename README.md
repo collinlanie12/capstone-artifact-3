@@ -51,6 +51,46 @@ This file can be imported into MongoDB for local testing.
 - Integrated React Leaflet map with live location markers
 - Refactored code using reusable services and secure practices
 
+## Getting Started
+Follow these steps to set up and run the Grazioso Salvare Dashboard full-stack application locally.
+
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/collinlanie12/capstone-artifact-3.git
+   ```
+2. Set Up the Backend
+   Navigate to the `server` folder:
+   ```bash
+   cd server
+   npm install
+   ```
+3. Create a `.env` file in the `server` folder and add your MongoDB connection string:
+   ```bash
+   MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority
+   ```
+   > _You can also use a local MongoDB connection string if you're running MongoDB locally._
+4. Import the sample CSV data into MongoDB:
+   You can use a MongoDB GUI like MongoDB Compass or run a command-line import using:
+   ```bash
+   mongoimport --uri YOUR_MONGO_URI --collection animals --type csv --headerline --file data/aac_shelter_outcomes.csv
+5. Start the backend server:
+   ```bash
+   npm run dev
+   ```
+   This runs the Express API on `http://localhost:5050` or based on your configuration in the `.env`
+6. Setup the Frontend
+   In the root project directory, install frontend dependencies:
+   ```bash
+   npm install
+   ```
+7. Start the frontend development server:
+   ```bash
+   npm run dev
+   ```
+   This will run the React application on `http://localhost:5173`
+
+   
+
 ## Project Screenshots
 
 ### Original Artifact
@@ -61,3 +101,10 @@ This file can be imported into MongoDB for local testing.
 
 ![Enhanced Artifact Image 1](/src/assets/enhanced_artifact_1.png)
 ![Enhanced Artifact Image 2](/src/assets/enhanced_artifact_2.png)
+
+## Author
+Collin Lanier
+
+Southern New Hampshire University
+
+CS-499 Capstone Project - Artifact 2
