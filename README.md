@@ -2,6 +2,8 @@
 
 A full-stack web application for visualizing animal shelter data. This project was developed for the SNHU CS-499 Capstone course for database integration, and data-driven UI.
 
+You can find the difference between the original and enhanced artifacts through my pull request: [Fullstack enhancement for artifact 3](https://github.com/collinlanie12/capstone-artifact-3/pull/1)
+
 ## Project Overview
 
 This dashboard allows users to:
