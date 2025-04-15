@@ -89,7 +89,7 @@ Follow these steps to set up and run the Grazioso Salvare Dashboard full-stack a
    ```
    This will run the React application on `http://localhost:5173`
 
-   
+> Note: Ensure both the frontend and backend servers are running at the same time for full functionality.
 
 ## Project Screenshots
 
